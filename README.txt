@@ -1,0 +1,9 @@
+项目文件说明
+1.dataset里面存放数据读取、采样、增强的python文件
+2.image测试图片
+3.models存放模型文件
+4.trained_models为训练完成的模型文件
+5.gen_stage1_trainval_list.py
+生成stage1网络需要的训练数据，训练stage1采用了在线数据增强的方式
+6.gen_stage3_trainval_list.py
+生成stage3网络需要的训练数据，训练stage3采用了离线数据增强的方式
